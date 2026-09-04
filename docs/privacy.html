@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>제잠자 개인정보처리방침</title>
+<style>
+  :root {
+    --bg: #11121a;
+    --surface: #1b1d28;
+    --accent: #e0b27c;
+    --text: #e9e5dc;
+    --muted: #8c8a9b;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 48px 20px 80px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+      "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    line-height: 1.7;
+  }
+  main { max-width: 680px; margin: 0 auto; }
+  h1 { font-size: 26px; margin: 0 0 6px; }
+  .sub { color: var(--muted); font-size: 14px; margin: 0 0 40px; }
+  h2 {
+    font-size: 17px;
+    margin: 40px 0 10px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(255,255,255,.07);
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  p, li { font-size: 15px; color: var(--text); }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  .lead {
+    background: var(--surface);
+    border-left: 3px solid var(--accent);
+    padding: 18px 20px;
+    border-radius: 0 10px 10px 0;
+    margin: 0 0 8px;
+  }
+  .lead strong { color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 14px; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid rgba(255,255,255,.07); }
+  th { color: var(--muted); font-weight: 600; }
+  code {
+    background: var(--surface);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 13px;
+    color: var(--accent);
+  }
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(255,255,255,.07);
+    color: var(--muted);
+    font-size: 13px;
+  }
+  a { color: var(--accent); }
+  .en { color: var(--muted); font-size: 14px; }
+  .en h2 { font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>🌙 제잠자 개인정보처리방침</h1>
+  <p class="sub">최종 수정일: 2026년 8월 27일</p>
+
+  <p class="lead">
+    <strong>제잠자는 어떤 개인정보도 수집하지 않습니다.</strong><br>
+    앱에 인터넷 권한이 없어서, 사용자가 입력한 내용이 기기 밖으로 나갈 방법이 없습니다.
+  </p>
+
+  <h2>1. 수집하는 정보</h2>
+  <p>없습니다. 이름, 이메일, 전화번호, 위치, 광고 식별자 등 어떤 정보도 수집하지 않습니다.</p>
+  <p>회원가입이 없고 계정도 없습니다.</p>
+
+  <h2>2. 기기에 저장되는 것</h2>
+  <p>
+    앱이 동작하려면 몇 가지를 기억해야 합니다. 이 값들은 <strong>사용자의 기기 안에만</strong>
+    저장되며 어디로도 전송되지 않습니다.
+  </p>
+  <table>
+    <tr><th>저장 항목</th><th>용도</th></tr>
+    <tr><td>취침 시각, 미리 알림 설정</td><td>알림을 언제 보낼지 정하기 위해</td></tr>
+    <tr><td>말투(문구 팩) 배정</td><td>어떤 문구를 보낼지 정하기 위해</td></tr>
+    <tr><td>취침 기록 (날짜, 누운 시각, 미룬 횟수)</td><td>연속 기록과 달력을 보여주기 위해</td></tr>
+    <tr><td>직접 쓴 잔소리 문구</td><td>알림에 그 문구를 쓰기 위해</td></tr>
+  </table>
+  <p>
+    <strong>앱을 삭제하면 이 정보도 함께 사라집니다.</strong>
+    백업 서버가 없으므로 복구할 방법도 없습니다.
+  </p>
+
+  <h2>3. 사용하는 권한</h2>
+  <table>
+    <tr><th>권한</th><th>왜 필요한가</th></tr>
+    <tr><td>알림</td><td>취침 시각 알림을 보내기 위해. 이 권한이 없으면 앱의 핵심 기능이 동작하지 않습니다.</td></tr>
+    <tr><td>정확한 알람</td><td>정해진 시각에 오차 없이 알리기 위해. 없어도 동작하지만 알림이 늦을 수 있습니다.</td></tr>
+    <tr><td>절전 모드 예외</td><td>절전 모드에서도 알림이 오게 하기 위해. 선택 사항입니다.</td></tr>
+    <tr><td>기기 부팅 완료 감지</td><td>기기를 껐다 켠 뒤에도 예약된 알림을 되살리기 위해.</td></tr>
+    <tr><td>진동</td><td>알림 진동을 위해.</td></tr>
+  </table>
+  <p>
+    카메라, 마이크, 연락처, 위치, 저장소 등 개인정보와 관련된 권한은
+    <strong>요청하지 않습니다.</strong>
+  </p>
+
+  <h2>4. 제3자 제공 및 광고</h2>
+  <p>
+    데이터를 제3자에게 제공하거나 판매하지 않습니다.
+    현재 버전에는 <strong>광고와 분석 도구가 들어 있지 않습니다.</strong>
+  </p>
+  <p>
+    나중에 광고를 도입하게 되면 이 문서를 먼저 갱신하고, 앱 안에서도 안내한 뒤에 적용합니다.
+  </p>
+
+  <h2>5. 만 14세 미만 아동</h2>
+  <p>
+    아동을 대상으로 하는 앱이 아니며, 아동을 포함한 누구에게서도 정보를 수집하지 않습니다.
+  </p>
+
+  <h2>6. 방침 변경</h2>
+  <p>
+    이 방침이 바뀌면 이 페이지의 최종 수정일이 갱신됩니다.
+    중요한 변경이 있을 때는 앱 업데이트 설명에도 함께 적습니다.
+  </p>
+
+  <h2>7. 문의</h2>
+  <p>
+    개인정보 관련 문의: <a href="mailto:leastmighty.dev@gmail.com">leastmighty.dev@gmail.com</a>
+  </p>
+
+  <div class="en">
+    <h2>English summary</h2>
+    <p>
+      <strong>Jejamja (제잠자) collects no personal data.</strong>
+      The app has no internet permission, so nothing you enter can leave your device.
+    </p>
+    <p>
+      Bedtime settings, sleep records, and any custom messages you write are stored
+      only in local storage on your device and are deleted when you uninstall the app.
+      No accounts, no analytics, no ads, no third-party data sharing.
+    </p>
+    <p>
+      Permissions used: notifications, exact alarm, battery optimization exemption,
+      boot completed, and vibration &mdash; all solely to deliver bedtime reminders on time.
+    </p>
+    <p>Contact: <a href="mailto:leastmighty.dev@gmail.com">leastmighty.dev@gmail.com</a></p>
+  </div>
+
+  <footer>
+    제잠자 · <a href="https://github.com/leastmighty/pleasegetsleep">GitHub</a>
+  </footer>
+
+</main>
+</body>
+</html>
